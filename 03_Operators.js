@@ -21,4 +21,11 @@ console.log(one_string === two_string); // false
 // logical operators sama like JAVA: you have only short circuit && , || 
 console.log((5<2)&&(2<5)); // false
 
-
+// control flow statements: if/if else/swith/break/continue same with Java
+let num1 = 100;
+let num2 = 10;
+if(num1>num2){
+    console.log('number 1 is bigger');
+}else{
+    console.log('number 2 is bigger');
+}
