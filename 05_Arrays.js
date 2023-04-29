@@ -47,3 +47,9 @@ for (let value of colors) {
 colors.forEach(element => {
     console.log(element);
 });
+
+// can we add multiple type of Data? YES
+let soupOfData = [5, "Oscar", true, undefined]; // you can also put Map, Object, Functions inside Array
+soupOfData.forEach(element => {
+    console.log(typeof element);
+});
