@@ -25,3 +25,10 @@ console.log(x+y); // concatination : 5Oscar
 console.log(x*y); // NaN
 
 // Naming Rules : same with JAVA naming rules
+
+// constant variables
+
+const number = 35;
+// TypeError: Assignment to constant variable.
+// number = 45; 
+console.log(number);
