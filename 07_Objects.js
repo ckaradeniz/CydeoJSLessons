@@ -35,3 +35,34 @@ let course = {
     subjects : ['Objects','Arrays','Functions','Live Server']
 }
 console.log(course);
+
+
+// loop using keys of the object
+for (let key in course) {
+   console.log(key+" : "+course[key]);
+}
+
+// value which was array turned into string = Objects,Arrays,Functions,Live Server
+
+/**
+ * We will have fixtures folder in Cypress Tool, we store JSON files
+ */
+
+// let's create an object with function, array, object in it
+let myCar = {
+    make : 'Dacia',
+    color : 'orange',
+    year : 2022,
+    engine : {
+        cylinders : 3,
+        size : 1.0
+    },
+    extras : ['AC','Cruise Control','Sound Sytem'],
+    drive : function () {
+        console.log("Running on LPG");
+    }
+}
+
+myCar.drive(); // like in JAVA
+
+console.log(myCar.extras[1]); // you are familiar with this from API testing
