@@ -32,3 +32,5 @@ const number = 35;
 // TypeError: Assignment to constant variable.
 // number = 45; 
 console.log(number);
+let userName = null;
+console.log(userName);
