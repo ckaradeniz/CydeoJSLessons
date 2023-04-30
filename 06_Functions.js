@@ -49,4 +49,4 @@ let aveResult = average(10,20,sum);
 console.log(aveResult);
 
 aveResult = average(10,20,multiply);
-console.log(aveResult);
+console.log("average result from multiplication : "+aveResult);
