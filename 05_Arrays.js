@@ -19,6 +19,7 @@ console.log(emptyArray);
 console.log(myNumbers);
 console.log(colors);
 
+
 // print second element in an array
 console.log(colors[1]); // indexed based
 
